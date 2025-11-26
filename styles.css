@@ -184,7 +184,6 @@
         display: flex;
         flex-direction: column;
         gap: 100px;
-        margin-bottom: 100px;
 
         .close--1 {
             width: 100%;
@@ -434,7 +433,6 @@
             display: flex;
             position: relative;
             gap: 16px;
-            margin-bottom: 155px;
             width: 100%;
 
             .close--3--left {
@@ -576,18 +574,15 @@
     }
 
     .wrapper--foot {
-        top: -350px;
         width: 100%;
         background-color: #f4fbf8;
         display: flex;
         justify-content: center;
         position: relative;
-        overflow: hidden;
-        padding-top: 270px;
 
         .foot--1 {
             position: absolute;
-            top: -230px;
+            top: -320px;
             width: 1800px;
             height: 300px;
             z-index: 2;
@@ -601,6 +596,7 @@
         .foot--2 {
             width: 100%;
             max-width: 1180px;
+            padding-top: 190px;
 
             .tes {
                 padding: 12px 24px;
@@ -932,9 +928,6 @@
                     .left--2--letter {
                         max-width: 335px;
                         width: 100%;
-
-
-
                         h1 {
                             font-weight: 600;
 
